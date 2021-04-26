@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Serialization;
 using Newtonsoft.Json;
 
-namespace Kontur.Employee
+namespace Employee
 {
     public class RoleResponse
     {
