@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Kontur.Employee
+namespace Employee
 {
     public class PersonProps
     {
@@ -60,12 +60,6 @@ namespace Kontur.Employee
         public IdentityCard IdentityCard { get; }
 
         public string ForeignAddress { get; }
-        
-        public override string ToString()
-        {
-            return string.IsNullOrWhiteSpace(InnFl)
-                ? $"{FullName}"
-                : $"{FullName} ({InnFl})";
-        }
+
     }
 }
