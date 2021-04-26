@@ -1,4 +1,4 @@
-﻿namespace Kontur.Employee
+﻿namespace Employee
 {
     public enum RoleType
     {
